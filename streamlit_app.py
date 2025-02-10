@@ -18,7 +18,7 @@ def get_chat_response(prompt,  model):
   return response.text
 
 def main():
-  st.title("Merlin Magic") 
+  st.title("InfoGenie AI") 
 
   # Model Selection
   selected_model = st.selectbox("Choose a Gemini Model:", available_models)

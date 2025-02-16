@@ -42,7 +42,7 @@ import google.generativeai as genai
 genai.configure(api_key="AIzaSyDCGolvypLlaYmXE0wtrIix3r1mys9k5-s")  
 
 # Available Gemini models
-available_models = ["models/gemini-1.5-pro-latest", "models/gemini-1.5-flash-late 
+available_models = ["models/gemini-1.5-pro-latest", "models/gemini-1.5-flash-latest"] 
 
 def get_chat_response(prompt, model):
     """Sends a prompt to the Gemini model and returns the response."""
